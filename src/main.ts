@@ -1,6 +1,6 @@
 import "./style.css";
-import {Elm} from "./Hello.elm";
+import {Elm} from "./Main.elm";
 
 const app = document.querySelector<HTMLDivElement>("#app")!;
 
-Elm.Hello.init({node: app});
+Elm.Main.init({node: app});

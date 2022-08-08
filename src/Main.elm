@@ -1,4 +1,4 @@
-module Hello exposing (main)
+module Main exposing (main)
 
 import Browser
 import Html exposing (Html, button, div, p, text)
@@ -40,7 +40,7 @@ update : Msg -> Model -> Model
 update msg model =
     case msg of
         Increment ->
-            model + 143
+            model + 1
 
         Decrement ->
             model - 1
